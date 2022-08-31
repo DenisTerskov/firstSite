@@ -1,0 +1,36 @@
+body {
+    font-family: 'Aboreto', sans-serif;
+}
+table {
+    width: 1000px;
+    border-collapse: collapse; 
+    border: 5px solid black;
+    color: rgb(87, 64, 150);
+    background: rgb(247,234,217); /* Цвет фона */
+}
+.main_column{
+    color: rgb(236,191,126);
+    background: linear-gradient(to right, rgb(121,46,40), rgb(189,145,132));
+}
+td, th {
+    padding: 3px; /* Поля вокруг содержимого таблицы */
+    border: 1px solid rgba(0, 0, 0, 0.021); /* Параметры рамки */
+}
+.red_column {
+    color: white;
+    background-color: rgb(121,46,40);
+}
+.gradient_column{
+    color: white ;
+    background: linear-gradient(to right, rgb(121,46,40), rgb(194, 135, 117));
+}
+.down_conatiner td, a{
+    color: white;
+    text-align: center;
+}
+.dark_red_column{
+    color: white;
+    background: rgb(127,23,14);
+}
+
+    
